@@ -3,6 +3,7 @@ import CharacterCard from './components/CharacterCard';
 import SearchBar from './components/SearchBar';
 import type { Character, ApiResponse } from './types/character';
 import useDebounce from './hooks/useDebounce';
+import './index.css'
 
 function App() {
   const [characters, setCharacters] = useState<Character[]>([]);
